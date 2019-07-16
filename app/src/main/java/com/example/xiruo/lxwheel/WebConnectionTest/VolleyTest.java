@@ -32,7 +32,7 @@ import java.io.UnsupportedEncodingException;
 public class VolleyTest extends AppCompatActivity {
     Button volleyBtn;
     EditText txt;
-
+int a=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
