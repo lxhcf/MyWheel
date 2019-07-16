@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+/**
+ * 这些代码都是自动生成的，通常情况下不需要修改这个文件中的内容。
+ * 两处repositories闭包中都声明了jcenter()，
+ * jcenter是一个代码托管仓库，从而使得我们在项目中可以引用任何jcenter上的开源项目。
+ * dependencies闭包中使用classpath声明了一个Gradle插件，因为Gradle并不是专门为构建Android项目而开发的，Java、C++等很多种项目都可以使用Gradle来构建。
+ * 如果想要使用Gradle来构建Android项目，则需要声明com.android.tools.build:gradle:2.3.3这个插件，其中，后面是插件的版本号。
+ */
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

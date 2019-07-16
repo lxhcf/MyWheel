@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DBTest.DBTestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnBDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="建立数据库"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="60dp" />
+
+        <Button
+            android:id="@+id/btnODB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开数据库"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="60dp" />
+
+        <Button
+            android:id="@+id/btnP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一条"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <Button
+            android:id="@+id/btnN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一条"
+            tools:layout_editor_absoluteX="270dp"
+            tools:layout_editor_absoluteY="127dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="630dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="629dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="628dp" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="628dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etxtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="用户姓名"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <EditText
+        android:id="@+id/etxtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="联系电话"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/etxtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="家庭住址"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <EditText
+        android:id="@+id/etxtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="电子信箱"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="446dp" />
+</LinearLayout>
