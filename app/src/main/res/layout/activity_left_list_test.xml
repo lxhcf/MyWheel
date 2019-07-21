@@ -4,12 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".UITest.LeftListTest">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择灾害等级"/>
     <!--列表选择框-->
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:entries="@array/ctype">
     </Spinner>
     <!--搜索文本框-->

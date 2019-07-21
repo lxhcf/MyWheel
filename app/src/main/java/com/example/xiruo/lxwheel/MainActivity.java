@@ -199,8 +199,8 @@ public class MainActivity extends AppCompatActivity {
                 //endregion
 
                 //region UI设计---------------------------下拉列表  (未通过)
-//                Intent intent=new Intent(MainActivity.this, LeftListTest.class); //创建Intent对象
-//                startActivity(intent);
+                Intent intent=new Intent(MainActivity.this, LeftListTest.class); //创建Intent对象
+                startActivity(intent);
                 //endregion
 
                 //region UI设计---------------------------层式导航(通过)
@@ -281,8 +281,8 @@ public class MainActivity extends AppCompatActivity {
                 //endregion
 
                 //region 四大组件----------------------volley网络
-                Intent intent = new Intent(MainActivity.this, VolleyTest.class); //创建Intent对象
-                startActivity(intent);
+//                Intent intent = new Intent(MainActivity.this, VolleyTest.class); //创建Intent对象
+//                startActivity(intent);
                 //endregion
 
             }
